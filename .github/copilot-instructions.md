@@ -56,6 +56,10 @@ This repository contains the source code for the Yarn Classic (v1) website, avai
 
 ### Building the Site
 ```sh
+# Install dependencies and start dev server (default)
+make
+
+# Or separately:
 # Install dependencies
 make install
 
@@ -63,7 +67,7 @@ make install
 make serve
 
 # Build production assets
-npm run build:production
+yarn build:production
 ```
 
 ### Code Quality
