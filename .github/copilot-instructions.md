@@ -12,7 +12,7 @@ This repository contains the source code for the Yarn Classic (v1) website, avai
 
 ### Technology Stack
 - **Static Site Generator**: Jekyll (Ruby-based)
-- **Frontend**: React 16.4+ with Bootstrap 4
+- **Frontend**: React 16.4+ with Bootstrap 4.0.0-alpha.5
 - **Build Tools**: Webpack 3, Babel
 - **Languages**: JavaScript (ES6+), Markdown, HTML, SCSS
 - **Package Management**: Yarn (self-hosting)
@@ -98,7 +98,7 @@ The primary goal is to provide clear, accurate, and accessible documentation for
 1. **This is Yarn Classic (v1)** - Not Yarn v2/Berry (that's a separate repository)
 2. **Internationalization** - English is the primary language (`lang/en/`), other languages are ignored in git
 3. **Static site** - Changes require rebuild, no server-side processing
-4. **Bootstrap 4 Alpha** - Using an older version of Bootstrap
+4. **Bootstrap 4.0.0-alpha.5** - Using an alpha version of Bootstrap 4
 5. **Node.js support** - Document supported Node.js versions: ^4.8.0 || ^5.7.0 || ^6.2.2 || >=8.0.0
 
 ## When Making Changes
