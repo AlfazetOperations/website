@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.21.0":
+  version "7.28.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.6.tgz#d267a43cb1836dc4d182cce93ae75ba954ef6d2b"
+  integrity sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==
+
 "@haroenv/react-sparklines@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@haroenv/react-sparklines/-/react-sparklines-1.7.1.tgz#a192dd664b391b0c6c7433a4bbb886f39c6b2618"
@@ -1450,9 +1455,12 @@ date-fns@^1.27.2:
   version "1.29.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.29.0.tgz#12e609cdcb935127311d04d33334e2960a2a54e6"
 
-date-fns@^2.0.0-alpha.7:
-  version "2.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.0-alpha.7.tgz#245ad16f95764eababfb2c0a41fd5d033c20e57a"
+date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 date-now@^0.1.4:
   version "0.1.4"
